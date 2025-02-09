@@ -1,0 +1,36 @@
+.outer-header-container{
+    background-color: #111;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    border-bottom: 2px solid #111;
+    z-index: 1;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 30px;
+}
+.header-left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.header-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    cursor: pointer;
+}
