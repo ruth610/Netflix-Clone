@@ -34,11 +34,11 @@
     gap: 20px;
     opacity: 0.7;
 }
-.footer-info, .footer-icons li{
+.footer-info li:hover, .footer-icons li{
     transition: all 100ms ease-in-out;
 }
-.footer-info,.footer-icons li:hover{
-    transform: scale(1.03);
+.footer-info li:hover,.footer-icons li:hover{
+    transform: scale(1.01);
     opacity: 0.8;
 }
 .copyright ul{
