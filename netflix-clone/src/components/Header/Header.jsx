@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css';
+import { Link } from 'react-router-dom';
 import neflixLogo from '../../assets/images/neflixLogo.png';
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
@@ -11,7 +12,8 @@ const Header = () => {
         <div className="container">
             <div className="header-left">
                 <ul>
-                    <li className='logo'><img src={neflixLogo} alt="" width='150'/></li>
+                    <li className='logo'><Link to='/' style={{textDecoration:'none', 
+                        color:'white'}}><img src={neflixLogo} alt="" width='150'/></Link></li>
                     <li>Netflix</li>
                     <li>Home</li>
                     <li>TVShows</li>
@@ -25,7 +27,7 @@ const Header = () => {
                 <ul>
                     <li><SearchIcon /></li>
                     <li><NotificationsNoneIcon /></li>
-                    <li><AccountBoxIcon /></li>
+                    <li><Link to='login' style={{textDecoration:'none', color:'white'}}><AccountBoxIcon /></Link></li>
                     <li><ArrowDropDownIcon /></li>
                 </ul>
             </div>
