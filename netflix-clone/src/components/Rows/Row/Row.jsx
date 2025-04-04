@@ -26,7 +26,7 @@ const Row = ({fetchUrl,title}) => {
             setTrailer('')
         }
         else{
-            movieTrailer(data?.title || data?.name || data?.original_name)
+            movieTrailer(data?.title  || data?.name || data?.original_name)
             .then((url)=>{
                 console.log(url)
                 const urlParam= new URLSearchParams( new URL(url).search)
