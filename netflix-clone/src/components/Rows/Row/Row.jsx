@@ -91,7 +91,7 @@ const Row = ({fetchUrl,title}) => {
                             </div>
                     </div>
                 ))
-            :<p>Hello</p>}
+            :<p>Loading...</p>}
             </Slider>
         </div>
         <div className="trailer-display">
