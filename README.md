@@ -1,15 +1,12 @@
 
 
 🎬 Netflix Clone
+
 A fully functional Netflix Clone built to mimic the core UI and functionality of the original Netflix platform. This project was created for educational purposes and showcases modern frontend and backend concepts, including authentication, state management, API integration, and responsive design.
 
 🚀 Features
+
 ✅ Core Functionalities
-User Authentication:
-
-Sign up, login, and logout using secure authentication (Firebase/Auth or custom backend).
-
-Protected routes – access restricted to authenticated users only.
 
 Home Screen:
 
@@ -52,6 +49,7 @@ Bootstrap / TailwindCSS / Custom CSS – For responsive and stylish layout.
 TMDB API Integration – Fetching real-time movie data and images.
 
 ⚙️ Dev Tools
+
 VS Code – Main development environment.
 ESLint + Prettier – Code formatting and linting.
 Git + GitHub – Version control and code sharing.
