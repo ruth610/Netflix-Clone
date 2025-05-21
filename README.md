@@ -1,12 +1,12 @@
 
 
-🎬 Netflix Clone
+# 🎬 Netflix Clone
 
 A fully functional Netflix Clone built to mimic the core UI and functionality of the original Netflix platform. This project was created for educational purposes and showcases modern frontend and backend concepts, including authentication, state management, API integration, and responsive design.
 
-🚀 Features
+# 🚀 Features
 
-✅ Core Functionalities
+# ✅ Core Functionalities
 
 Home Screen:
 
@@ -38,8 +38,8 @@ Responsive UI:
 
 Optimized for desktop, tablet, and mobile using CSS Flexbox/Grid and media queries.
 
-🧠 Concepts & Technologies Used
-📱 Frontend (React + TypeScript)
+# 🧠 Concepts & Technologies Used
+# 📱 Frontend (React + TypeScript)
 ReactJS – For building the component-based UI.
 React Router – For client-side routing and navigation.
 Axios/Fetch – For making HTTP requests to external APIs.
@@ -48,13 +48,13 @@ Framer Motion / CSS Animations – For smooth UI transitions and hover effects.
 Bootstrap / TailwindCSS / Custom CSS – For responsive and stylish layout.
 TMDB API Integration – Fetching real-time movie data and images.
 
-⚙️ Dev Tools
+# ⚙️ Dev Tools
 
 VS Code – Main development environment.
 ESLint + Prettier – Code formatting and linting.
 Git + GitHub – Version control and code sharing.
 
-📸 Screenshots
+# 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/f7fac2a0-0eff-41a5-abd3-9d6f6e173e2d)
 ![image](https://github.com/user-attachments/assets/8d12a628-536a-4172-85f4-60bd6a2ed9cf)
@@ -67,7 +67,7 @@ Git + GitHub – Version control and code sharing.
 
 
 
-📦 Installation & Setup
+# 📦 Installation & Setup
 
 # Clone the repository
 git clone https://github.com/your-username/netflix-clone.git
@@ -84,7 +84,7 @@ REACT_APP_FIREBASE_API_KEY=your_firebase_key
 # Run the development server
 npm start
 
-📝 Future Enhancements
+# 📝 Future Enhancements
 
 Dark mode toggle
 Multi-profile support
